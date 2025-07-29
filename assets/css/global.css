@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #f6f8fc;
+}
+
+.content {
+  padding: 1rem;
+  background-color: #fff;
+  height: 100vh;
+}
+
+@media screen and (min-width: 992px){
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
+
+.content h1 {
+  margin: 0;
+  padding: 1rem;
 }

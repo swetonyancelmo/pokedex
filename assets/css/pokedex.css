@@ -10,20 +10,44 @@
     background-color: #a6a877;
 }
 
+.normal:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px rgb(166, 168, 119, 0.8);
+}
+
 .grass {
     background-color: #77c850;
 }
 
+.grass:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px rgb(119, 200, 80, 0.8);
+}
+
 .fire {
     background-color: #ee7f30;
+}
+.fire:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px rgb(238, 127, 48, 0.8);
 }
 
 .water {
     background-color: #678fee;
 }
 
+.water:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px rgb(103, 143, 238, 0.8);
+}
+
 .electric {
     background-color: #f7cf2e;
+}
+
+.electric:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px rgb(247, 207, 46, 0.8);
 }
 
 .ice {
@@ -34,6 +58,11 @@
     background-color: #dfbf69;
 }
 
+.ground:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px #dfbf69;
+}
+
 .flying {
     background-color: #a98ff0;
 }
@@ -42,12 +71,27 @@
     background-color: #a040a0;
 }
 
+.poison:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px #a040a0;
+}
+
 .fighting {
     background-color: #bf3029;
 }
 
+.fighting:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px #bf3029;
+}
+
 .psychic {
     background-color: #f65687;
+}
+
+.psychic:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px #f65687;
 }
 
 .dark {
@@ -58,12 +102,27 @@
     background-color: #b8a137;
 }
 
+.rock:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px #b8a137;
+}
+
 .bug {
     background-color: #a8b720;
 }
 
+.bug:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px #a8b720;
+}
+
 .ghost {
     background-color: #6e5896;
+}
+
+.ghost:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 3px #6e5896;
 }
 
 .steel {
@@ -86,6 +145,11 @@
   padding: 1rem;
   border-radius: 1rem;
   color: #fff;
+  transition: all .2s ease-in-out;
+}
+
+.pokemon:hover {
+  transform: scale(1.05);
 }
 
 .pokemon .number {
@@ -141,10 +205,16 @@
 
 .pagination button {
   padding: .8rem;
-  background-color: #6c79db;
+  background-color: #6e5896;
   border: none;
   border-radius: 1rem;
   color: #fff;
+  transition: all .2s ease-in-out;
+}
+
+.pagination button:hover {
+  transform: scale(1.01);
+  background-color: #6f38f6;
 }
 
 @media screen and (min-width: 380px){
